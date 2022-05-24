@@ -1,0 +1,95 @@
+body {
+	
+}
+
+header {
+    background: #ffcc0a;
+    padding: 20px 0;
+}
+
+.menu-logo {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #a7a7d0;
+	text-decoration: underline;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
+	margin: 3px 0 0 0;
+}
+
+.primaria {
+	background: #CCCCCC;
+	padding: 30px;
+}
+
+.titulo {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 18px;
+	padding: 0 60px 0 60px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#missao {
+	font-size: 22px
+}
+
+em strong {
+	color: indianred;
+}
+
+.itens {
+	font-style: italic;
+	margin: 30px;
+}
+
+.beneficios {
+	padding: 22px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.lista {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	margin-left: 10%;
+	font-size: ;
+}
+
+
