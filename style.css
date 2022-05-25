@@ -58,6 +58,7 @@ nav a:hover {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 15px;
+	background: white;
 }
 
 .produtos li:hover {
@@ -76,7 +77,6 @@ nav a:hover {
 .produtos li:hover h2 {
 	font-size: 34px;
 }
-
 
 .descricao-produtos {
 	font-size: 18px;
@@ -140,21 +140,22 @@ p {
 	font-size: 1.2em;
 	font-weight: bold;
 	background: #ffcc0a;
-	border: none;
+	border-color: goldenrod;
 	color: white;
 	border-radius: 5px;
+
 }
 
 .enviar:hover {
 	background: #998100;
 	transition: 1s;
 	cursor: pointer;
-	transform: scale(1.2);	
+	transform: scale(1.2);
 }
 
 table {
 	width: 30%;
-	margin: 2em 0 2em 18rem;
+	margin: 2em 0 2em 18.5%;
 	position: relative;
 }
 
@@ -225,7 +226,6 @@ tfoot {
 
 .mapa {
 	padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #989898);
 }
 
 .mapa-conteudo {
@@ -330,13 +330,12 @@ tfoot {
 		line-height: 1.5em;
 	}
 
-	.tabela {
+	table {
 		width: auto;
 	}
 
 	.produtos li {
 		width: 100%;
 		margin-bottom: 1.5em;
-		
+
 	}
-}
