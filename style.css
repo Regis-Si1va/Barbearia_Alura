@@ -1,9 +1,11 @@
+/*---------------- CSS pagina produtos -------------------------------*/
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background: #ffcc0a;
+    background: url("bg.jpg");
     padding: 20px 0;
 }
 
@@ -21,28 +23,29 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 1rem;
 }
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
 nav a:hover {
-	color: #a7a7d0;
+	color: lightyellow;
 	text-decoration: underline;
-	font-size: 24px;
+	font-size: 2em;
 	font-weight: bold;
+	transition: 0.5s;
 }
 
 .produtos {
-	width: 940px;
+	width: auto;
     margin: 0 auto;
-    padding: 50px;
+    padding: 3em;
 }
 
 .produtos li {
@@ -97,6 +100,9 @@ footer {
 	margin: 20px 0 0;
 }
 
+
+/* -------------------Pagina Formulário------------------------------*/
+
 main {
 	
 }
@@ -129,9 +135,9 @@ p {
 }
 
 .enviar {
-	width: 30%;
-	padding: 15px 0;
-	font-size: 18px;
+	width: 14rem;
+	padding: 0.8rem 0;
+	font-size: 1.2em;
 	font-weight: bold;
 	background: #ffcc0a;
 	border: none;
@@ -147,12 +153,13 @@ p {
 }
 
 table {
-	margin: 40px auto 40px auto;
+	width: 30%;
+	margin: 2em 0 2em 18rem;
 	position: relative;
 }
 
-.tabela {
-	width: 940px;
+body {
+	background: linear-gradient(#FEFEFE, #eeeeee, #989898);
 }
 
 thead {
@@ -177,6 +184,9 @@ tfoot {
 	font-weight: bold;
 }
 
+
+/* -------------------- Pagina principal -------------------------*/
+
 .banner {
 	width: 100%;
 }
@@ -184,13 +194,13 @@ tfoot {
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
-	margin: 1em 0 1em;
+	margin: 0 auto;
+	line-height: 2.5em;
 	clear: left;
 }
 
 .principal {
 	padding: 3em;
-	background: #fefefe;
 	width: 940px;
 	margin: 0 auto;
 }
@@ -254,8 +264,9 @@ tfoot {
 }
 
 .itens:before {
-	content: "★";
+	content: "✂ ";
 }
+
 .imagem-beneficios {
 	width: 60%;
 }
@@ -267,4 +278,65 @@ tfoot {
 .video {
 	width: 560px;
 	margin: 2em auto	;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.mapa-conteudo {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.mapa p {
+		padding: 1em;
+	}
+
+	.lista-beneficios {
+		width: 90%;
+		margin-left: 10%;
+	}
+
+	.imagem-beneficios {
+		width: 80%;
+		margin-left: 5%;
+		padding: 5%;
+	}
+
+	.video {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	main form {
+		width: 80%;
+		margin-left: 5%;
+		line-height: 2em;
+		padding: 0 1em;
+	}
+
+	#mensagem {
+		width: 80%;
+		line-height: 1.5em;
+	}
+
+	.tabela {
+		width: auto;
+	}
+
+	.produtos li {
+		width: 100%;
+		margin-bottom: 1.5em;
+		
+	}
 }
