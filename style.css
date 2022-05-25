@@ -332,6 +332,7 @@ tfoot {
 
 	table {
 		width: auto;
+		margin-left: 2em;
 	}
 
 	.produtos li {
