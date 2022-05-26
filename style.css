@@ -103,10 +103,6 @@ footer {
 
 /* -------------------Pagina Formulário------------------------------*/
 
-main {
-	
-}
-
 form {
 	width: 940px;
 	margin: 40px auto;
@@ -155,8 +151,12 @@ p {
 
 table {
 	width: 30%;
-	margin: 2em 0 2em 19%;
-	position: relative;
+	margin: 2em;
+	position: static;
+}
+
+.tabela {
+	margin-left: 17%;
 }
 
 body {
