@@ -151,13 +151,10 @@ p {
 
 table {
 	width: 30%;
-	margin: 2em;
+	margin: 2em 0 1.5em 13.5rem;
 	position: static;
 }
 
-.tabela {
-	margin-left: 17%;
-}
 
 body {
 	background: linear-gradient(#FEFEFE, #eeeeee, #989898);
