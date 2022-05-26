@@ -123,7 +123,7 @@ form label, form legend {
 	font-size: 20px;
 	margin-bottom: 20px;
 	padding: 10px 25px;
-	width: 50%;
+	width: 65%;
 }
 
 .checkbox {
@@ -291,6 +291,24 @@ tfoot {
 
 	nav {
 		position: static;
+		text-align: center;
+	}
+
+	nav a {
+		font-size: 1.4rem;
+	}
+
+	.titulo-principal{
+		line-height: 1.5em;
+	}
+
+	.utensilios {
+		margin-top: 1.4em;
+		padding: 0.5em;
+	}
+
+	.principal p {
+		line-height: 1.5em;
 	}
 
 	.mapa-conteudo {
@@ -319,9 +337,9 @@ tfoot {
 	}
 
 	main form {
-		width: 80%;
+		width: 85%;
 		margin-left: 5%;
-		line-height: 2em;
+		line-height: 2.2em;
 		padding: 0 1em;
 	}
 
@@ -338,5 +356,6 @@ tfoot {
 	.produtos li {
 		width: 100%;
 		margin-bottom: 1.5em;
+		line-height: 2em;
 
 	}
